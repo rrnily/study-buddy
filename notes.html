@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>video playlist</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">Study Buddy👾</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/mypfp.jpg" class="image" alt="">
+         <h3 class="name"> Arnieza M.</h3>
+         <p class="role">Student</p>
+         <a href="profile.html" class="btn">view profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/mypfp.jpg" class="image" alt="">
+      <h3 class="name"> Arnieza M.</h3>
+      <p class="role">Student</p>
+      <a href="profile.html" class="btn">view profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+      <a href="group.html"><i class="fas fa-graduation-cap"></i><span>Popular Groups</span></a>
+      <a href="buddies.html"><i class="fas fa-chalkboard-user"></i><span>Buddies</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+   </nav>
+
+</div>
+
+<section class="playlist-details">
+
+   <h1 class="heading"> Details</h1>
+
+   <div class="row">
+
+      <div class="column">
+         <form action="" method="post" class="save-playlist">
+            <button type="submit"><i class="far fa-bookmark"></i> <span>save videos</span></button>
+         </form>
+   
+         <div class="thumb">
+            <img src="images/videonotebg.jpg" alt="">
+            <span>6 videos</span>
+         </div>
+      </div>
+      <div class="column">
+         <div class="tutor">
+            <img src="images/mypfp.jpg" alt="">
+            <div>
+               <h3>Arnieza M.</h3>
+               <span>23-2-2025</span>
+            </div>
+         </div>
+   
+         <div class="details">
+            <h3>📚 My Notes & Resources (Video)</h3>
+            <p>Here’s a collection of my personal study videos, covering key topics from my degree in Information Systems Management. I created these videos to help myself (and hopefully my buddies too!) better understand complex concepts. </p>
+            <a href="profile.html" class="inline-btn">view profile</a>
+         </div>
+      </div>
+   </div>
+
+</section>
+
+<section class="playlist-videos">
+
+   <h1 class="heading">My Videos Notes</h1>
+
+   <div class="box-container">
+
+      <a class="box" href="notes.html">
+         <i class="fas fa-play"></i>
+         <img src="images/01notes1.jpg" alt="">
+         <h3>HTML & CSS Advanced</h3>
+      </a>
+
+      <a class="box" href="notes.html">
+         <i class="fas fa-play"></i>
+         <img src="images/01notes2.jpg" alt="">
+         <h3>Figma for Beginners</h3>
+      </a>
+
+      <a class="box" href="notes.html">
+         <i class="fas fa-play"></i>
+         <img src="images/notelist01.jpg" alt="">
+         <h3>Project Management — Tools & Methodologies for IS Projects</h3>
+      </a>
+
+      <a class="box" href="notes.html">
+         <i class="fas fa-play"></i>
+         <img src="images/notelist02.jpg" alt="">
+         <h3>Information Security — Threats & Countermeasures</h3>
+      </a>
+
+      <a class="box" href="notes.html">
+         <i class="fas fa-play"></i>
+         <img src="images/notelist03.jpg" alt="">
+         <h3>System Analysis & Design — Key Concepts & Diagrams</h3>
+      </a>
+
+      <a class="box" href="notes.html">
+         <i class="fas fa-play"></i>
+         <img src="images/notelist04.jpg" alt="">
+         <h3>Database Management System (DBMS) — SQL Queries & Best Practices</h3>
+      </a>
+
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   &copy; copyright @ 2025 by <span>Study Buddy | UiTM </span> | all rights reserved!
+
+</footer>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+   
+</body>
+</html>
